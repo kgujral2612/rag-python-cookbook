@@ -95,7 +95,7 @@ Answer:"""
     return res.choices[0].message.content
 
 
-file_path = Path("datasets/text_files/harry_potter_knowledge_base.txt")
+file_path = Path("../datasets/text_files/harry_potter_knowledge_base.txt")
 text = file_path.read_text(encoding="utf-8")
 chunks = chunk_text(text, 500)
 
