@@ -17,12 +17,6 @@ ch01_getting_started_with_rag
 pip install openai
 pip install chromadb
 pip install python-dotenv
-
-# Create venv
-python3 -m venv .venv
-
-# Activate venv
-. ./.venv/bin/activate
 ```
 
 Create a `.env` file and add the OpenAI API key.

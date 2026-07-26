@@ -27,4 +27,10 @@ rag-python-cookbook
 
 ```bash
 git clone https://github.com/<your-username>/rag-python-cookbook.git
+
+# Create venv
+python3 -m venv .venv
+
+# Activate venv
+. ./.venv/bin/activate
 ```
