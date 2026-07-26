@@ -7,7 +7,6 @@ This project creates a RAG system that answers questions about Harry Potter.
 ch01_getting_started_with_rag
 ├── datasets/              # Harry Potter Knowledge Base source text files
 ├── main.py                # Source code
-├── .gitignore             # Git ignore file
 └── README.md              # Project documentation
 ```
 
