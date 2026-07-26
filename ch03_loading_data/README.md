@@ -5,6 +5,13 @@ About 80% of enterprise information is unstructured and distributed across prese
 This project contains the source code to load the following types of files in Python:
 1. Microsoft Word
 2. PDF
+3. Tabular- excel, CSV
+4. SQL
+
+Additional scripts that are included have the below functions:
+1. Extracting text from audio
+2. Extracting text from image using tesseract
+3. Extracting text from image using multimodal models
 
 ### Getting Started
 
