@@ -11,4 +11,12 @@ This project contains the source code to load the following types of files in Py
 ```bash
 # Install required packages
 pip install -r requirements.txt
+
+# Install PostGreSQL for loading sql data on macOS
+brew install postgresql@16
+brew services start postgresql@16
+brew install --cask pgadmin4
+
+# To launch postgres inside the shell
+psql postgres
 ```
