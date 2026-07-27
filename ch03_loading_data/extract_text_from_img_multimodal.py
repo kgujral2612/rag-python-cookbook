@@ -20,7 +20,9 @@ with open(png_file_apth, "rb") as image_file:
     response = client.chat.completions.create(
         model = "gpt-5.2",
         messages= [
-            {"role": "user", "content": [
+            {
+                "role": "user", 
+                "content": [
                 {
                     "type": "text",
                     "text": prompt,
