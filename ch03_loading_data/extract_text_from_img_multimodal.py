@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-png_file_apth = "../datasets/images/example_finance_reporting_slide.png"
+png_file_path = "../datasets/images/example_finance_reporting_slide.png"
 
 client = OpenAI()
 
-with open(png_file_apth, "rb") as image_file:
+with open(png_file_path, "rb") as image_file:
     base64_image = base64.b64encode(image_file.read()).decode("utf-8")
 
     prompt = (
