@@ -20,7 +20,7 @@ rag-python-cookbook
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.10+
 - An API key for [OpenAI / Anthropic / etc.]
 
 ### Installation
